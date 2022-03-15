@@ -6,7 +6,7 @@ class WordleDictionary:
 		# words in two separate lists (self._words and self._common_words)
 		pass
 
-	def valid_word(self, word):
+	def is_valid_word(self, word):
 		# checks if word is a valid word against the dictionary (self._words)
 		# returns True/False
 		pass
