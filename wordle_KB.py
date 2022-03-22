@@ -1,5 +1,5 @@
 class WordleKB:
-	def __init__(self, xpos, ypos, width, height, the_word):
+	def __init__(self, display, xpos, ypos, width, height, the_word):
 		self._key_pos = ["QWERTYUIOP", "ASDFGHJKL", "ZXCVBNM"]
 		#self._key_pos = ["ABCDEFGHIJ", "KLMNOPQRST", "UVWXYZ"]
 		self._top_row_keys = [WordleTile(…) ]
